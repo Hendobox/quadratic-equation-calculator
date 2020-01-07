@@ -2,7 +2,7 @@ pragma solidity 0.5.1;
     
 contract QuadraticEquation {
     
-    function squartRoot(int x) public pure returns (int) {
+    function squartRoot(int x) internal pure returns (int) {
         int y = x;
         while(true) {
             int z = (y + (x/y))/2;
